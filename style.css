@@ -1,0 +1,559 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .content {
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    .content .nav {
+        width: 100%;
+        height: 20%;
+    }
+    
+    .nav ul {
+        list-style: none;
+    }
+    
+    .nav ul a {
+        float: left;
+        margin: 0 10px;
+        border: 1px solid black;
+        text-decoration: none;
+        font-size: 20px;
+        width: 60px;
+        height: 25px;
+    }
+    
+    .nav ul .a1 {
+        color: blue;
+        border: 1px solid blue;
+        margin: 10px 15px;
+        float: right;
+    }
+    
+    .nav ul .a2 {
+        border: 1px solid green;
+        margin: 10px 15px;
+        float: right;
+    }
+    
+    .contener .nav .center {
+        text-align: center;
+        margin: 10px 15px;
+        color: blueviolet;
+        font-size: 20px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    
+    .nav .left li {
+        float: left;
+        padding: 10px 15px;
+        color: white;
+        font-size: 20px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    
+    .nav .left li:hover {
+        color: sienna;
+        background-color: aqua;
+    }
+    
+    .nav .left li span {
+        color: green;
+    }
+    
+    .nav .left li span :hover {
+        color: blueviolet;
+    }
+    /*lg */
+    
+    @media(min-width: 601px) {
+        .content .nav {
+            width: 100%;
+        }
+    }
+    
+    .imges {
+        width: 100%;
+        height: 80%;
+        font-size: 100% 100%;
+        animation-name: famliy;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+        background-image: url(./im/dark2.jpg);
+        background-image: url(./im/dark1.jpg);
+        background-image: url(./im/dark3\ \(1\).jpg);
+        background-repeat: no-repeat;
+        position: relative;
+        left: 30%;
+    }
+    
+    @keyframes famliy {
+        25% {
+            background-image: url(./im/dark1.jpg);
+            width: 100%;
+            height: 80%;
+        }
+        50% {
+            background-image: url(./im/dark3\ \(1\).jpg);
+            width: 100%;
+            height: 80%;
+        }
+        75% {
+            background-image: url(./im/dark2.jpg);
+            width: 100%;
+            height: 80%;
+        }
+    }
+    
+    .contener {
+        width: 100%;
+        height: 45vh;
+        background-color: black;
+    }
+    
+    .contener h1 {
+        text-align: center;
+        color: blueviolet;
+        font-size: 60px;
+    }
+    
+    .contener .h {
+        width: 600px;
+        text-align: center;
+        margin-left: 370px;
+        border: 5px solid white;
+    }
+    
+    .contener .h1 {
+        width: 450px;
+        text-align: center;
+        margin-left: 450px;
+        border: 4px dotted blueviolet;
+    }
+    
+    .contener .main {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .contener .main1 {
+        border: 20px solid white;
+    }
+    
+    .main2 {
+        border: 20px solid white;
+    }
+    
+    .contener h4 {
+        text-align: center;
+        color: white;
+    }
+    
+    .contener .hh {
+        width: 350px;
+        text-align: center;
+        margin-left: 500px;
+        border: 4px dotted blueviolet;
+    }
+    
+    .content .content2 {
+        width: 50%;
+        height: 100vh;
+    }
+    /* @media(max-width:770px) {
+        .contener .h {
+            margin-left: 200px;
+        }
+    }
+    
+    */
+    
+    .mo {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+    }
+    
+    .mo .im {
+        width: 40%;
+        height: 100%;
+        display: inline-block;
+        display: flex;
+    }
+    
+    .mo .im img {
+        width: 500px;
+    }
+    
+    .mo .id {
+        width: 50%;
+        height: 100%;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .mo .id p {
+        font-size: 20px;
+    }
+    
+    .test {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    /*@media(max-width: 600px) {
+    .mo .im {
+        width: 100%;
+    }
+    .mo .id {
+        font-size: 60px;
+    }
+    .mo .id p {
+        font-size: 40px;
+    }
+    .contener .h {
+        text-align: center;
+        margin-right: 200px;
+    }
+}*/
+    
+    .test .t1 {
+        color: white;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .test .t2 {
+        border: 3px solid white;
+        width: 750px;
+        margin-left: 300px;
+    }
+    
+    .test .t3 {
+        margin-top: 15px;
+        border: 2px dashed blueviolet;
+        width: 550px;
+        margin-left: 400px;
+    }
+    
+    .test .t4 {
+        margin-top: 15px;
+        border: 2px dashed blueviolet;
+        width: 300px;
+        margin-left: 520px;
+    }
+    
+    .but {
+        display: flex;
+        width: 100%;
+        height: 10%;
+    }
+    
+    .test .but {
+        margin-top: 20px;
+    }
+    
+    .test .but .t7 {
+        margin-left: 500px;
+        padding: 10px 15px;
+        border-radius: 15px;
+        background-color: blueviolet;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .test .but .t6 {
+        margin-left: 40%;
+        padding: 10px 15px;
+        border-radius: 15px;
+        background-color: blueviolet;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .test .but .t5 {
+        margin-left: 10px;
+        padding: 10px 15px;
+        border-radius: 15px;
+        background-color: blueviolet;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .test .t8 {
+        border: 1px solid white;
+    }
+    
+    .t10 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: black;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .t10 .t11 {
+        width: 25%;
+        height: 45%;
+    }
+    
+    .t10 .t11 .t111 {
+        border-radius: 20px;
+    }
+    
+    .t10 .t12 {
+        width: 25%;
+        height: 45%;
+    }
+    
+    .t10 .t12 .t112 {
+        width: 300px;
+        border-radius: 20px;
+    }
+    
+    .t10 .t13 {
+        width: 25%;
+        height: 45%;
+    }
+    
+    .t10 .t13 .t113 {
+        width: 300px;
+        border-radius: 20px;
+    }
+    
+    .t15 {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 50vh;
+        margin-top: 70px;
+    }
+    
+    .t15 .t18 {
+        width: 25%;
+    }
+    
+    .t15 .t17 {
+        width: 25%;
+    }
+    
+    .t15 .t16 {
+        width: 25%;
+    }
+    
+    .t15 .t18 .t118 {
+        width: 300px;
+        border-radius: 20px;
+    }
+    
+    .t15 .t17 .t117 {
+        width: 300px;
+        border-radius: 20px;
+    }
+    
+    .t15 .t16 .t116 {
+        border-radius: 20px;
+    }
+    
+    .go {
+        width: 100%;
+        height: 40%;
+        background-color: black;
+    }
+    
+    .sh {
+        text-align: center;
+        color: blueviolet;
+        font-size: 60px;
+        background-color: black;
+    }
+    
+    .sh1 {
+        border: 3px solid blueviolet;
+        width: 550px;
+        margin-left: 400px;
+    }
+    
+    .sh2 {
+        border: 2px dotted blueviolet;
+        width: 400px;
+        margin-left: 480px;
+    }
+    
+    .sh3 {
+        border: 2px dotted blueviolet;
+        width: 300px;
+        margin-left: 520px;
+    }
+    
+    .mm {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    .dv1 {
+        width: 50%;
+        height: 100%;
+        display: inline-block;
+        background-color: black;
+    }
+    
+    .dv2 {
+        width: 50%;
+        height: 100%;
+        background-color: black;
+        float: right;
+        display: inline-block;
+    }
+    
+    .mm .dv1 .di1 {
+        display: inline-block;
+        margin-left: 40px;
+    }
+    
+    .ww {
+        border: 7px solid white;
+    }
+    
+    .ds {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+    }
+    
+    .ds .de {
+        width: 30%;
+        height: 25vh;
+        display: inline-block;
+    }
+    
+    .de p {
+        font-size: 20px;
+        color: white;
+    }
+    
+    .mm .dv1 .di1 .em {
+        text-align: center;
+        font-size: 20px;
+        color: blueviolet;
+    }
+    
+    .mm .dv1 .di1 .il {
+        width: 250px;
+        padding: 5px 10px;
+        border-radius: 7px;
+    }
+    
+    .mm .dv1 .di2 {
+        float: left;
+    }
+    
+    .mm .dv1 .di2 .il1 {
+        width: 250px;
+        padding: 5px 10px;
+        border-radius: 7px;
+    }
+    
+    .mm .dv1 .di2 .pa {
+        text-align: center;
+        font-size: 20px;
+        color: blueviolet;
+    }
+    
+    .mm .dv1 .di3 .ad {
+        text-align: center;
+        font-size: 20px;
+        margin-right: 120px;
+        color: blueviolet;
+    }
+    
+    .mm .dv1 .di3 .pu {
+        width: 570px;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+    
+    .mm .dv1 .di4 .ad1 {
+        text-align: center;
+        font-size: 20px;
+        margin-right: 120px;
+        color: blueviolet;
+    }
+    
+    .mm .dv1 .di4 .pu1 {
+        width: 570px;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+    
+    .mm .dv1 .di5 {
+        display: inline-block;
+    }
+    
+    .mm .dv1 .di5 .ad2 {
+        margin-left: 70px;
+        color: blueviolet;
+    }
+    
+    .mm .dv1 .di6 {
+        float: right;
+        margin-right: 200px;
+    }
+    
+    .mm .dv1 .di6 .ad3 {
+        text-align: center;
+        color: blueviolet;
+    }
+    
+    .mm .dv1 .di7 .pu4 {
+        width: 570px;
+        margin-top: 20px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: blue;
+    }
+    
+    .mm .pp {
+        color: blueviolet;
+        margin-left: 200px;
+        font-size: 40px;
+        display: inline-block;
+    }
+    
+    .de h1 {
+        color: white;
+    }
+    
+    .ds .or {
+        color: white;
+        margin-top: 10px;
+        display: inline-block;
+        margin-left: 300px;
+    }
+    
+    .ds .or2 {
+        color: white;
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    
+    h2 {
+        border: 4px solid white;
+    }
